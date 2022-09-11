@@ -7,3 +7,5 @@ string[] sourcearray = {"Good day", "1", "World", "You", "Free", "18", "Me"};
 Console.WriteLine('[' + string.Join(",", sourcearray) + ']');
 
 sourcearray = sourcearray.Where(x => x.Length < 4).ToArray();
+
+Console.WriteLine('[' + string.Join(",", sourcearray) + ']');
