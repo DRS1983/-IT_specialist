@@ -3,5 +3,13 @@
 // исключительно массивами
 
 
-string[] strarray = { "Hello", "2", "World","5", "Free"};
-Console.WriteLine('[' + string.Join(", ", strarray) + ']');
+string[] sourcearray = { "Hello", "2", "World","5", "Free"};
+Console.WriteLine('[' + string.Join(", ", sourcearray) + ']');
+
+string[] newarr = new string[sourcearray.GetLength(0)];
+for (int i = 0; i < sourcearray.GetLength(0); i++)
+{
+    newarr [i] = sourcearray[i];
+}
+
+Console.WriteLine('[' + string.Join(", ", newarr) + ']');
