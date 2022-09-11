@@ -3,3 +3,5 @@
 // исключительно массивами
 
 string[] sourcearray = {"Good day", "1", "World", "You", "Free", "18", "Me"};
+
+Console.WriteLine('[' + string.Join(",", sourcearray) + ']');
