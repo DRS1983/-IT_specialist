@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GeekBrains\\C#\\IT-specialist\\IT-specialist.csproj": {}
+    "C:\\GeekBrains\\C#\\it-specialist\\IT-specialist.csproj": {}
   },
   "projects": {
-    "C:\\GeekBrains\\C#\\IT-specialist\\IT-specialist.csproj": {
+    "C:\\GeekBrains\\C#\\it-specialist\\IT-specialist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GeekBrains\\C#\\IT-specialist\\IT-specialist.csproj",
+        "projectUniqueName": "C:\\GeekBrains\\C#\\it-specialist\\IT-specialist.csproj",
         "projectName": "IT-specialist",
-        "projectPath": "C:\\GeekBrains\\C#\\IT-specialist\\IT-specialist.csproj",
+        "projectPath": "C:\\GeekBrains\\C#\\it-specialist\\IT-specialist.csproj",
         "packagesPath": "C:\\Users\\Роман\\.nuget\\packages\\",
-        "outputPath": "C:\\GeekBrains\\C#\\IT-specialist\\obj\\",
+        "outputPath": "C:\\GeekBrains\\C#\\it-specialist\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Роман\\AppData\\Roaming\\NuGet\\NuGet.Config"
