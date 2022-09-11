@@ -3,10 +3,5 @@
 // исключительно массивами
 
 
-//Console.WriteLine("Введите массив через пробел");
-
-
-
-
 string[] strarray = { "Hello", "2", "World","5", "Free"};
 Console.WriteLine('[' + string.Join(", ", strarray) + ']');
