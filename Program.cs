@@ -3,13 +3,35 @@
 // исключительно массивами
 
 
-string[] sourcearray = { "Hello", "2", "World","5", "Free"};
-Console.WriteLine('[' + string.Join(", ", sourcearray) + ']');
+string[] sourcearray = {"Good day", "5", "World", "a", "Free"};
 
-string[] newarr = new string[sourcearray.GetLength(0)];
+Console.WriteLine('[' + string.Join(",", sourcearray) + ']');
+
+string s = "";
+
+int n = 0;
+
 for (int i = 0; i < sourcearray.GetLength(0); i++)
 {
+    s = sourcearray[i];
+    if (s.Length < 4 & s.Length > 0)
+    n++;
+}
+Console.WriteLine(n);
+
+
+
+string[] newarr = new string[n];
+
+for (int i = 0; i < n; i++)
+{
+
+    s = sourcearray[i];
+    if (s.Length < 4 & s.Length != 0)
+    {
     newarr [i] = sourcearray[i];
+    }
+    
 }
 
-Console.WriteLine('[' + string.Join(", ", newarr) + ']');
+Console.WriteLine('[' + string.Join(",", newarr) + ']');
